@@ -5,7 +5,7 @@ import smtplib
 host = 'mail.furb.br'
 port = '587'
 user = 'papacheco@furb.br'
-passw = '**********'
+passw = '**********senha'
 
 server = smtplib.SMTP()
 server.connect(host, port)
